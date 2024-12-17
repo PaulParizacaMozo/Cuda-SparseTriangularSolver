@@ -1,5 +1,9 @@
 # Implementación de un Algoritmo para Resolver Sistemas Triangulares Dispersos con CUDA
 
+## Link
+[Paper][https://drive.google.com/file/d/1MjgdJh1UqvGKaeE8PXLsGYKZRiIzYvFb/view?usp=sharing]
+[Slides][https://drive.google.com/file/d/19ZaKua0VPt9jdBqbVeGOd_k1lBvi20GQ/view?usp=sharing]
+
 ## Introducción
 
 La resolución de sistemas lineales triangulares dispersos es esencial en aplicaciones como la simulación numérica y análisis estructural. Este proyecto implementa un **solucionador paralelo en GPU** utilizando **CUDA** para optimizar el rendimiento y mejorar la escalabilidad en la resolución de matrices triangulares dispersas.
