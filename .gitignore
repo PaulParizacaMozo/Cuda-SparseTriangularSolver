@@ -1,0 +1,51 @@
+
+# Archivos de objeto compilados
+*.o
+
+# Directorios de compilación y objetos
+obj/
+runtimeAnalysis/
+
+exs/
+examples/
+matrix/
+
+*.mtx
+*.txt
+
+back.md
+# Directorios de salida y resultados generados
+output/
+results/
+
+# Archivos de archivos comprimidos y backups
+*.tar
+*BACK.*
+
+# Archivos de velocidad generados
+**/*.METIS_speedup.*
+**/*.ORIGINAL_speedup.*
+
+# Archivos CSV y PNG generados
+*.csv
+*.png
+
+# Archivos de nombre de patrón en el directorio exs
+exs/**/cname.txt
+
+# Directorios específicos que podrían contener más archivos generados
+matrix/**/cname.txt
+matrix/**/*.B.mtx
+matrix/**/*.C.mtx
+matrix/**/*.E.mtx
+matrix/**/coord.mtx
+
+# Evita ignorar scripts y archivos de configuración necesarios
+!*.sh
+!*.py
+!*.c
+!*.h
+!Makefile*
+!README.md
+!LICENSE
+!*.mtx
