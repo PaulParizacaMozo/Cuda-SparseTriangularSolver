@@ -28,7 +28,13 @@ results/
 
 # Archivos CSV y PNG generados
 *.csv
+
+# Ignorar todos los archivos .png
 *.png
+
+# Excluir de la ignorancia los archivos dentro de la carpeta img/
+!img/*.png
+
 
 # Archivos de nombre de patrón en el directorio exs
 exs/**/cname.txt
